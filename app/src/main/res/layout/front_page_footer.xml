@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@drawable/usain_bolt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/layer_one"
+        android:src="@drawable/blend_a_red"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:scaleType="fitEnd"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/layer_three"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:src="@drawable/blend_a_yellow"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/layer_two"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:src="@drawable/blend_a_orange"
+        android:scaleType="fitEnd"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- <TextView
+        android:id="@+id/title"
+        android:text="USAIN BOLT"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/layer_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:text="THE GREATEST"
+        android:layout_below="@id/title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> -->
+
+    <TextView
+        android:id="@+id/details"
+        android:text="voir le film de la nuit"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:layout_marginBottom="30dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

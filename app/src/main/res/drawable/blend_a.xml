@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="true">
+
+    <item android:drawable="@drawable/blend_a_orange" android:duration="200" />
+    <item android:drawable="@drawable/blend_a_red" android:duration="200" />
+    <item android:drawable="@drawable/blend_a_yellow" android:duration="200" />
+
+</animation-list>
